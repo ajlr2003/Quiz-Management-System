@@ -1,1 +1,3 @@
-# Quiz-Management-System
+I developed a Quiz Management System named Quizo, a platform where teachers can create, manage, and view their quizzes. This system should allow teachers to log in, create quizzes, edit quizzes, and delete quizzes. You will build a responsive web application using React for the frontend and TypeScript for the backend. The frontend will use ShadCN UI components to create a clean and modern interface, while the backend will handle quiz CRUD operations and simple user authentication. A SQL database MySQL or PostgreSQL will be used to store quiz data and user credentials. This assignment is focused on the following features: 1. User login (static credentials, no JWT required). 
+2. Create, view, update, and delete quizzes.
+3. Responsive design.
