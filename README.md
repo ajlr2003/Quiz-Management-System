@@ -1,29 +1,20 @@
-# Quizo Backend README
+# Quiz Management System
 
 ## Project Overview
-Quizo is a Quiz Management System that allows teachers to create, manage, and view quizzes. This backend application is built using TypeScript and Express, providing a RESTful API for quiz management and user authentication.
-
+Quizo is a simple Quiz Management System where teachers can create, manage, and view quizzes.
+Built with React (ShadCN UI) & TypeScript backend, and MySQL/PostgreSQL for storage.
 ## Setup Instructions
 
 ### Prerequisites
 - Node.js (version 14 or higher)
-- MySQL or PostgreSQL database
+- PostgreSQL database
 
-### Installation
-1. Clone the repository:
-   ```
-   git clone <repository-url>
-   cd quizo/backend
-   ```
-
-2. Install dependencies:
-   ```
-   npm install
-   ```
-
-3. Configure your database:
-   - Update the database connection settings in your environment or configuration file.
-
+Features
+- User Authentication (Static Credentials)
+- CRUD Operations (Create, View, Edit, Delete Quizzes)
+- REST API (Backend with TypeScript & Express)
+- Responsive UI (ShadCN + TailwindCSS)
+- SQL Database (PostgreSQL)
 ### Running the Application
 1. Start the server:
    ```
@@ -34,10 +25,17 @@ Quizo is a Quiz Management System that allows teachers to create, manage, and vi
 
 ## API Documentation
 
-### Authentication
-- **POST /login**
-  - Request Body: `{ "username": "demo", "password": "demo" }`
-  - Response: `{ "message": "Login successful" }`
+#Frontend
+- React.js
+- ShadCN UI
+- Tailwind CSS
+- Axios
+- React Router
+#Backend
+- Node.js (TypeScript)
+- Express.js
+- Sequelize (ORM)
+- MySQL/PostgreSQL
 
 ### Quiz Management
 - **POST /quizzes**
